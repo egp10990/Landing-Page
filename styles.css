@@ -9,15 +9,21 @@ body {
 .header {
     display: flex;
     padding: 10px;
-    font-weight: 800;
     background-color: gold;
     color: white;
-    width: auto;
+    border-bottom: 5px solid palevioletred;
+}
+
+.ode {
+    font-weight: 800;
+    margin-top: 10px;
+    margin-left: 80px;
+
 }
 
 .container {
     display: flex;
-    align-content: flex-end;
+    
 }
 
 ul {
