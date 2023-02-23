@@ -99,4 +99,13 @@ a {
 
 .pictures img {
     width: 200px;
+    border-radius: 8px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 40px;
+    background-color: rgb(247, 108, 154);
 }
