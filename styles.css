@@ -34,10 +34,10 @@ body {
     font-size: 48px;
     font-weight: 700;
     background-color: gold;
-    color: white;
+    color: rgb(20, 147, 185);
     text-shadow: 2px 2px 2px rgb(255, 96, 123);
     margin-left: 80px;
-    margin-top: 80px;
+    margin-top: 90px;
     max-width: 500px;
 }
 
@@ -46,18 +46,15 @@ body {
     font-size: 18px;
     color: white;
     text-shadow: 2px 2px 2px limegreen;
-    margin-left: 80px;
     max-width: 500px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .body {
     background-color: gold;
-}
-
-.let-me-image {
     display: flex;
-    gap: 400px;
+    gap: 150px;
+    padding-bottom: 40px;;
 }
 
 .container-two {
@@ -65,17 +62,16 @@ body {
 }
 
 .image img {
-    width: 500px;
+    width: 450px;
     margin-top: 80px;
 }
 
-button {
+.button button {
     font-size: 24px;
-    margin-left: 80px;
     margin-top: 20px;
     border-radius: 12px;
     border-color: green;
-    background-color: green;
+    background-color: rgb(46, 138, 9);
     color: gold;
     text-shadow: 1px 1px 1px rgb(245, 62, 62);
 }
