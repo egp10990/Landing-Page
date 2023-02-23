@@ -12,9 +12,12 @@ body {
     background-color: gold;
     color: white;
     border-bottom: 5px solid palevioletred;
+    gap: 400px;
+    text-shadow: 1px 1px 1px rgb(240, 111, 6);
 }
 
 .ode {
+    display: flex;
     font-weight: 800;
     margin-top: 10px;
     margin-left: 80px;
@@ -23,6 +26,7 @@ body {
 
 .container {
     display: flex;
+    gap: 20px;
     
 }
 
