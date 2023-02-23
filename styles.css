@@ -11,12 +11,12 @@ body {
     padding: 10px;
     background-color: gold;
     color: white;
-    border-bottom: 5px solid palevioletred;
     gap: 400px;
     text-shadow: 2px 2px 2px rgb(240, 111, 6);
 }
 
 .ode {
+    font-size: 24px;
     display: flex;
     font-weight: 800;
     margin-top: 10px;
@@ -27,7 +27,43 @@ body {
 .container {
     display: flex;
     gap: 20px; 
-    font-size: 18px; 
+    font-size: 18px;
+}
+
+.let-me {
+    font-size: 48px;
+    font-weight: 700;
+    background-color: gold;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(255, 96, 123);
+    margin-left: 80px;
+    margin-top: 80px;
+    max-width: 500px;
+}
+
+.dedication {
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 2px limegreen;
+    margin-left: 80px;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.body {
+    background-color: gold;
+}
+
+button {
+    display: flex;
+    font-size: 24px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 12px;
+    border-color: green;
+    background-color: green;
+    color: gold;
+    text-shadow: 1px 1px 1px rgb(245, 62, 62);
 }
 
 ul {
@@ -39,6 +75,3 @@ a {
     color: white;
 }
 
-.ode {
-    font-size: 24px;
-}
