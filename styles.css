@@ -74,11 +74,13 @@ body {
 
 .body-two {
     display: flex;
+    margin: 0;
     background-color: rgb(243, 49, 185);
 }
 
 ul {
     list-style: none;
+    display: flex;
 }
 
 a {
@@ -105,7 +107,38 @@ a {
 .pictures {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     padding-top: 40px;
     background-color: rgb(247, 108, 154);
+}
+
+.picture-blurbs {
+    display: flex;
+    background-color: rgb(247, 108, 154);
+    color: white;
+    text-shadow: 1px 1px 1px orange;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.picture-blurbs li {
+    display: flex;
+    margin-bottom: 40px;
+    max-width: 140px;
+    justify-content: center;
+}
+
+.picture-blurbs ul {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(46, 138, 9);
 }
