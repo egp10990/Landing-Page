@@ -149,3 +149,18 @@ a {
     display: flex;
     justify-content: center;
 }
+
+.quotee {
+    background-color: rgb(46, 138, 9);
+    margin: 0;
+}
+
+.quotee-two {
+    display: flex;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(46, 138, 9);
+    margin-bottom: 40px;
+    margin-left: 750px;
+}
