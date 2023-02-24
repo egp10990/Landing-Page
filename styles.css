@@ -54,7 +54,7 @@ body {
     background-color: gold;
     display: flex;
     gap: 150px;
-    padding-bottom: 40px;;
+    padding-bottom: 90px;
 }
 
 .image img {
@@ -80,7 +80,6 @@ body {
 
 ul {
     list-style: none;
-    display: flex;
 }
 
 a {
@@ -106,28 +105,32 @@ a {
 .pictures {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     padding-top: 40px;
     background-color: rgb(247, 108, 154);
 }
 
 .picture-blurbs {
+    text-align: center;
     background-color: rgb(247, 108, 154);
-    color: white;
-    text-shadow: 1px 1px 1px orange;
-    font-size: 12px;
-    justify-content: center;
+    
 }
 
-.picture-blurbs li {
-    margin-bottom: 40px;
-    max-width: 140px;
-    text-align:center;
+.picture-container {
+    display: flex;
+    background-color: rgb(247, 108, 154);
+    color: white;
+    justify-content: center;
+    gap: 20px;
 }
 
 .picture-blurbs ul {
-    gap: 70px;
-    justify-content: center;
+    padding-inline-start: 0;
+    
+}
+
+.picture-blurbs li {
+    max-width: 200px;
 }
 
 .body-three {
